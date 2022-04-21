@@ -16,5 +16,6 @@ export class LocationCardComponent implements OnInit {
   @Input() name = ''; // this is the location nane
   @Input() address = ''; // this is the location address
   @Input() cover_photo = ''; // this is the location cover photo
+  @Input() desc = ''; // this is the location description
 
 }
